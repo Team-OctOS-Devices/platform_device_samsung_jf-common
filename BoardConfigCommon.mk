@@ -44,7 +44,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 TARGET_KERNEL_CONFIG := cyanogen_jf_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 TARGET_KERNEL_SOURCE := kernel/samsung/jf
-
+androidboot.selinux=permissive
 # Audio
 BOARD_HAVE_AUDIENCE_ES325_2MIC := true
 BOARD_HAVE_DOCK_USBAUDIO := true
